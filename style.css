@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+    font-family: verdana;
+    background-image: url(imagens/azul2.jpg);
+    background-size: cover;
+    color: rgb(255, 255, 255);
+
+}
+h1 {
+    font-size: 70px;
+    padding-top: 300px;
+    text-shadow: 2px 2px 2px gray;
+    margin-bottom: 15px;
+}
+
+p{
+    font-size: 25px;
+}
+.botao {
+    text-decoration: none;
+    background-color: rgb(3, 35, 65);
+    color: white;
+    font-size: 20px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 4px;
+}
+
+.botao:hover {
+    background-color: rgb(43, 43, 136);
+}
+
+.lista {
+    list-style:none;
+    padding-left: 0;
+    margin-top: 150px;
+}
+.lista li{
+    display: inline;
+    
+}
+
+.lista a {
+    color: white;
+    font-size: 30px;
+
+}
+}
